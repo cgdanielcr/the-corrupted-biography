@@ -1,0 +1,11 @@
+# Treat all text as UTF-8 and normalize line endings so the intentional
+# encoding artifact in the title (CÃ©sar CortÃ©s) is preserved everywhere.
+* text=auto eol=lf
+*.md  text working-tree-encoding=UTF-8
+*.txt text working-tree-encoding=UTF-8
+
+# Binary assets — never touched by line-ending or encoding normalization
+*.epub binary
+*.jpg  binary
+*.jpeg binary
+*.png  binary

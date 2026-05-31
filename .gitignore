@@ -1,0 +1,2 @@
+# The e-book ships as a GitHub Release asset, not in the repo tree
+*.epub
