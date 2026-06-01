@@ -7,6 +7,8 @@
 
 Free to read and share under [CC BY-NC-ND 4.0](./LICENSE.md). © 2026 Daniel Chaves Gómez — see [COPYRIGHT](./COPYRIGHT.md).
 
+For more about this author go to [onigrafo.com](https://onigrafo.com).
+
 ---
 
 ## Contents
