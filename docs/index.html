@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
+<script>document.documentElement.className="js";</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Corrupted Biography of CÃ©sar CortÃ©s</title>
@@ -150,6 +151,238 @@
     h1{font-size:1.8rem;}
     .terminal{margin:48px -10px;}
     .term-body{padding:18px 16px 20px;}
+  }
+
+  /* ============================================================
+     INTERACTIVE BOOK READER (progressive enhancement)
+     ============================================================ */
+
+  /* Source <main> is the no-JS / plain fallback + clone source. */
+  #reader{display:none;}
+  html.js body.reader-active #reader{display:block;}
+  html.js body.reader-active main{display:none;}
+  html.no-js #reader{display:none;}
+
+  /* tiny "plain version" affordance shown only in reader mode */
+  .plain-link{
+    position:fixed;left:14px;bottom:12px;z-index:60;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size:.72rem;color:var(--muted);text-decoration:none;opacity:.55;
+    background:rgba(250,248,244,.7);padding:4px 9px;border-radius:20px;
+    border:1px solid var(--rule);backdrop-filter:blur(4px);transition:opacity .2s;
+  }
+  .plain-link:hover{opacity:1;}
+  body:not(.reader-active) .plain-link{display:none;}
+  .reader-dark .plain-link{
+    color:var(--term-dim);background:rgba(22,24,29,.6);border-color:var(--term-border);
+  }
+
+  /* ---- reader shell ---- */
+  #reader{position:fixed;inset:0;overflow:hidden;background:var(--bg);
+    transition:background .5s ease;}
+  .reader-dark #reader{background:#0d0e11;}
+  #stage{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;}
+  .scene{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+    opacity:1;}
+  .scene.enter{animation:sceneIn .5s ease both;}
+  @keyframes sceneIn{from{opacity:0;}to{opacity:1;}}
+
+  /* flash overlay used for book<->console "breaks" */
+  #flash{position:absolute;inset:0;background:#000;opacity:0;pointer-events:none;z-index:40;
+    transition:opacity .32s ease;}
+  #flash.on{opacity:1;}
+
+  /* ---- top chrome ---- */
+  .chrome-btn{
+    position:fixed;top:14px;right:16px;z-index:55;width:40px;height:40px;border-radius:50%;
+    border:1px solid var(--rule);background:rgba(255,254,251,.8);color:var(--ink);
+    cursor:pointer;display:flex;align-items:center;justify-content:center;
+    backdrop-filter:blur(4px);transition:all .2s;
+  }
+  .chrome-btn:hover{transform:scale(1.06);}
+  .reader-dark .chrome-btn{background:rgba(27,30,36,.7);color:var(--term-ink);border-color:var(--term-border);}
+  body:not(.reader-active) .chrome-btn{display:none;}
+  .chrome-btn svg{width:18px;height:18px;}
+
+  /* ---- progress (book scenes) ---- */
+  .progress{
+    position:fixed;left:0;bottom:0;height:3px;background:var(--accent);
+    z-index:50;width:0;transition:width .35s ease;opacity:0;
+  }
+  .progress.show{opacity:.9;}
+  .page-count{
+    position:fixed;bottom:10px;left:50%;transform:translateX(-50%);z-index:50;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    font-size:.72rem;color:var(--muted);letter-spacing:.04em;opacity:0;transition:opacity .3s;
+  }
+  .page-count.show{opacity:.7;}
+
+  /* ============ COVER scene ============ */
+  .cover-scene{padding:20px;}
+  .cover-book{
+    position:relative;display:inline-block;transform-origin:center center;
+    transition:transform .55s cubic-bezier(.4,0,.2,1),opacity .45s ease;
+  }
+  .cover-book.opening{transform:scale(1.08);opacity:0;}
+  .cover-book .face{
+    border-radius:5px;overflow:hidden;display:block;
+    box-shadow:0 18px 50px rgba(0,0,0,.28);
+    background:var(--card);
+  }
+  .cover-book img{display:block;height:auto;width:auto;max-height:56vh;max-width:min(86vw,360px);}
+  .cover-meta{
+    text-align:center;margin-top:18px;max-width:420px;padding:0 8px;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size:.78rem;line-height:1.55;color:var(--muted);
+  }
+  .cover-meta a{color:var(--accent);text-decoration:none;}
+  .cover-meta a:hover{text-decoration:underline;}
+  .cover-start{
+    display:block;margin-top:16px;font-size:.82rem;letter-spacing:.18em;
+    text-transform:uppercase;color:var(--accent);font-weight:700;
+    animation:blink 1.15s step-start infinite;
+  }
+  @keyframes blink{50%{opacity:0;}}
+  .cover-stack{
+    display:flex;flex-direction:column;align-items:center;cursor:pointer;
+    animation:sceneIn .6s ease both;
+  }
+
+  /* ============ BOOK scene ============ */
+  .book{
+    position:relative;width:min(92vw,600px);height:min(88vh,820px);
+    display:flex;align-items:stretch;justify-content:center;
+  }
+  .book-paper{
+    position:relative;flex:1;background:linear-gradient(#fffdf8,#fbf8f1);
+    border-radius:6px;box-shadow:0 16px 50px rgba(40,30,15,.18);
+    overflow:hidden;
+  }
+  /* center spine for two-page spread */
+  .book.spread .book-paper::after{
+    content:"";position:absolute;top:0;bottom:0;left:50%;width:34px;transform:translateX(-50%);
+    background:linear-gradient(90deg,rgba(0,0,0,0) 0%,rgba(80,55,25,.10) 42%,rgba(80,55,25,.16) 50%,rgba(80,55,25,.10) 58%,rgba(0,0,0,0) 100%);
+    pointer-events:none;z-index:3;
+  }
+  .viewport{position:absolute;inset:0;overflow:hidden;}
+  .clip{position:absolute;inset:44px 46px;overflow:hidden;}
+  .flow{
+    height:100%;
+    column-fill:auto;
+    column-gap:0;
+    transition:transform .42s cubic-bezier(.45,.05,.2,1);
+    will-change:transform;
+    font-size:1.02rem;line-height:1.66;
+  }
+  .flow h2{
+    break-before:column;-webkit-column-break-before:always;
+    margin:0 0 22px;font-size:1.42rem;
+  }
+  .flow h2:first-child{break-before:auto;}
+  .flow p{margin:0 0 18px;}
+  .flow .toc-page h2{break-before:auto;}
+  .flow .toc-page .toc{margin:0;border:none;background:none;padding:0;}
+  .flow .toc-page .toc h2{font-size:.92rem;margin:0 0 10px;}
+  .flow .toc-page .toc ol{font-size:.92rem;line-height:1.62;padding-left:2em;}
+  .flow .toc-page .toc a{color:var(--ink);}
+  .flow hr{display:none;}
+  /* turning leaf overlay */
+  .turn-leaf{
+    position:absolute;top:0;bottom:0;width:50%;z-index:6;pointer-events:none;
+    background:linear-gradient(#fffdf8,#fbf8f1);transform-style:preserve-3d;
+    box-shadow:0 0 30px rgba(0,0,0,.18);
+  }
+
+  /* ============ CONSOLE scene ============ */
+  .console-scene{padding:0;}
+  .term{
+    position:absolute;inset:0;display:flex;flex-direction:column;
+    background:var(--term-bg);color:var(--term-ink);
+    font-family:ui-monospace,"SF Mono","Cascadia Code","Source Code Pro",Consolas,Menlo,monospace;
+  }
+  .term .term-bar{flex:0 0 auto;}
+  .term-screen{
+    flex:1;overflow-y:auto;overflow-x:hidden;padding:26px clamp(16px,5vw,90px) 90px;
+    font-size:14.5px;line-height:1.62;scroll-behavior:auto;
+  }
+  .term-screen .msg{margin:0 0 14px;}
+  .term-screen .narr{margin:0 0 14px;color:var(--term-ink);}
+  .term-screen .msg b{color:var(--term-teal);font-weight:700;}
+  .term-screen .msg .to{color:var(--term-amber);}
+  .term-screen .cmd{color:var(--term-amber);margin:18px 0 8px;word-break:break-word;}
+  .term-screen .cmd::before{content:"› ";color:var(--term-teal);}
+  .term-screen .cmd .op{color:var(--term-teal);font-weight:700;}
+  .term-screen pre.out{
+    margin:0 0 16px;background:var(--term-out-bg);border:1px solid var(--term-border);
+    border-left:3px solid var(--term-amber);border-radius:6px;padding:12px 14px;
+    color:var(--term-dim);font-size:13.5px;line-height:1.55;
+    white-space:pre-wrap;word-break:break-word;
+  }
+  .term-screen .thought{color:var(--term-dim);font-style:italic;text-align:center;
+    margin:16px 0;font-size:13px;letter-spacing:.02em;}
+  .term-screen .thought::before{content:"⋯ ";}
+  .term-screen .thought::after{content:" ⋯";}
+  .caret{display:inline-block;width:.6em;height:1.05em;vertical-align:-.18em;
+    background:var(--term-teal);margin-left:1px;animation:blink 1s step-start infinite;}
+  .term-continue{
+    text-align:center;color:var(--term-teal);font-size:.8rem;letter-spacing:.16em;
+    text-transform:uppercase;margin:30px 0 0;animation:blink 1.15s step-start infinite;
+    opacity:0;
+  }
+  .term-continue.show{opacity:1;}
+  .term-bar.boot .dot{opacity:0;animation:bootDot .5s ease forwards;}
+  .term-bar.boot .dot.y{animation-delay:.08s;}
+  .term-bar.boot .dot.g{animation-delay:.16s;}
+  .term-bar.boot .term-title{opacity:0;animation:sceneIn .4s ease .24s forwards;}
+  @keyframes bootDot{to{opacity:1;}}
+
+  /* ============ END scene ============ */
+  .end-scene{flex-direction:column;text-align:center;padding:24px;}
+  .end-card{max-width:520px;animation:sceneIn .7s ease both;}
+  .end-card .the-end{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    font-weight:700;letter-spacing:.22em;text-transform:uppercase;
+    font-size:1.1rem;color:var(--ink);margin-bottom:10px;
+  }
+  .end-card p{color:var(--muted);font-size:.95rem;}
+  .end-actions{margin-top:24px;display:flex;gap:10px;flex-wrap:wrap;justify-content:center;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:.85rem;}
+  .end-actions a,.end-actions button{
+    cursor:pointer;border:1px solid var(--rule);background:var(--card);color:var(--ink);
+    padding:9px 16px;border-radius:24px;text-decoration:none;transition:all .2s;
+  }
+  .end-actions a:hover,.end-actions button:hover{border-color:var(--accent);color:var(--accent);}
+
+  /* ============ MENU overlay ============ */
+  #menu{position:fixed;inset:0;z-index:70;background:rgba(20,18,15,.55);
+    backdrop-filter:blur(5px);display:none;align-items:center;justify-content:center;}
+  #menu.open{display:flex;animation:sceneIn .25s ease both;}
+  .menu-card{
+    background:var(--card);border-radius:14px;padding:30px 34px;max-width:440px;width:90vw;
+    max-height:84vh;overflow:auto;box-shadow:0 24px 70px rgba(0,0,0,.4);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  }
+  .menu-card h3{margin:0 0 4px;font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);}
+  .menu-card ol{list-style:none;margin:14px 0 18px;padding:0;}
+  .menu-card ol li{margin:0;}
+  .menu-card ol button{
+    width:100%;text-align:left;background:none;border:none;cursor:pointer;
+    padding:9px 8px;border-radius:7px;color:var(--ink);font-size:.95rem;font-family:inherit;
+  }
+  .menu-card ol button:hover{background:#f1ece2;color:var(--accent);}
+  .menu-card ol .is-term button{font-family:ui-monospace,Consolas,monospace;font-size:.84rem;color:#7a5230;}
+  .menu-foot{display:flex;gap:14px;border-top:1px solid var(--rule);padding-top:14px;font-size:.82rem;}
+  .menu-foot a,.menu-foot button{color:var(--accent);background:none;border:none;cursor:pointer;text-decoration:none;padding:0;font-family:inherit;font-size:.82rem;}
+
+  @media (max-width:900px){
+    .book{width:96vw;height:88vh;}
+    .clip{inset:30px 26px;}
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    .cover-book,.flow,.scene.enter,.progress,#flash{transition:none!important;animation:none!important;}
+    .cover-start,.term-continue,.caret{animation:none!important;}
+    .cover-start,.term-continue{opacity:1;}
   }
 </style>
 </head>
@@ -1100,5 +1333,403 @@ everything up to date.</pre>
   </footer>
 
 </main>
+
+<div id="reader"><div id="stage"></div><div id="flash"></div></div>
+
+<script>
+(function(){
+  "use strict";
+  var EPUB="https://github.com/cgdanielcr/the-corrupted-biography/raw/main/the-corrupted-biography.epub";
+  var body=document.body;
+  var reader=document.getElementById("reader");
+  var stage=document.getElementById("stage");
+  var flash=document.getElementById("flash");
+  var reduce=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  function el(t,c){var e=document.createElement(t);if(c)e.className=c;return e;}
+
+  /* ---------- gather source content ---------- */
+  var article=document.querySelector("article");
+  var tocSrc=document.querySelector("nav.toc");
+  var coverSrc=document.querySelector("header.cover");
+  var chapters={}, cur=null;
+  Array.prototype.forEach.call(article.children,function(node){
+    if(node.tagName==="H2"&&node.id){cur={id:node.id,type:"prose",nodes:[node]};chapters[node.id]=cur;}
+    else if(node.classList&&node.classList.contains("terminal")&&node.id){chapters[node.id]={id:node.id,type:"console",src:node};cur=null;}
+    else if(node.tagName==="HR"){/*skip*/}
+    else if(cur){cur.nodes.push(node);}
+  });
+  function ch(id){return chapters[id];}
+
+  var scenes=[
+    {key:"cover",type:"cover"},
+    {key:"book-A",type:"book",toc:tocSrc,chapters:["ch1","ch2","ch3","ch4","ch5","ch6","ch7","ch8","ch9"].map(ch)},
+    {key:"console-10",type:"console",src:ch("ch10").src},
+    {key:"book-B",type:"book",chapters:[ch("ch11")]},
+    {key:"console-12",type:"console",src:ch("ch12").src},
+    {key:"end",type:"end"}
+  ];
+  function idxOf(key){for(var i=0;i<scenes.length;i++)if(scenes[i].key===key)return i;return 0;}
+
+  var state={sceneIndex:0,curType:null,pos:0,perView:1,colw:0,gap:0,leaf:1,leaves:1,
+    flow:null,book:null,viewport:null,chapterLeaf:{},typing:false,skipReq:false,_t:null,
+    consoleScreen:null,consoleCont:null,blocks:null};
+  var menuOpen=false;
+
+  /* ---------- chrome ---------- */
+  var menuBtn=el("button","chrome-btn");
+  menuBtn.setAttribute("aria-label","Menu");
+  menuBtn.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>';
+  menuBtn.onclick=function(){toggleMenu();};
+  document.body.appendChild(menuBtn);
+
+  var pageCount=el("div","page-count");document.body.appendChild(pageCount);
+  var progress=el("div","progress");document.body.appendChild(progress);
+
+  var plainLink=el("a","plain-link");plainLink.href="#";plainLink.textContent="Plain version";
+  plainLink.onclick=function(e){e.preventDefault();enablePlain();};
+  document.body.appendChild(plainLink);
+
+  /* ---------- menu ---------- */
+  var menu=el("div");menu.id="menu";
+  (function(){
+    var card=el("div","menu-card");
+    var html='<h3>Contents</h3><ol>';
+    Array.prototype.forEach.call(tocSrc.querySelectorAll("li"),function(li){
+      var a=li.querySelector("a");var id=a.getAttribute("href").slice(1);
+      html+='<li class="'+(li.classList.contains("term-item")?"is-term":"")+'"><button data-id="'+id+'">'+a.textContent+"</button></li>";
+    });
+    html+='</ol><div class="menu-foot"><button data-act="plain">Plain version</button><a href="'+EPUB+'">Download .epub</a><button data-act="restart">Restart</button></div>';
+    card.innerHTML=html;menu.appendChild(card);
+    menu.addEventListener("click",function(e){if(e.target===menu)closeMenu();});
+    Array.prototype.forEach.call(card.querySelectorAll("button[data-id]"),function(b){b.onclick=function(){jumpTo(b.getAttribute("data-id"));};});
+    card.querySelector('[data-act="plain"]').onclick=enablePlain;
+    card.querySelector('[data-act="restart"]').onclick=function(){closeMenu();gotoScene(0);};
+  })();
+  document.body.appendChild(menu);
+  function toggleMenu(){menuOpen?closeMenu():openMenu();}
+  function openMenu(){menuOpen=true;menu.classList.add("open");}
+  function closeMenu(){menuOpen=false;menu.classList.remove("open");}
+
+  /* ---------- scene controller ---------- */
+  function gotoScene(index,opts){
+    opts=opts||{};
+    index=Math.max(0,Math.min(scenes.length-1,index));
+    var scene=scenes[index];
+    var prevType=state.curType;
+    var wasDark=prevType==="console";
+    var goDark=scene.type==="console";
+    state.sceneIndex=index;state.curType=scene.type;
+    clearTimeout(state._t);state.typing=false;
+    var needFlash=(goDark&&prevType&&!wasDark)||(!goDark&&wasDark);
+    function render(){
+      stage.innerHTML="";removeCaret();
+      body.classList.toggle("reader-dark",goDark);
+      if(scene.type==="cover")renderCover(scene);
+      else if(scene.type==="book")renderBook(scene,opts);
+      else if(scene.type==="console")renderConsole(scene);
+      else if(scene.type==="end")renderEnd(scene);
+      updateChrome();
+    }
+    if(needFlash&&!reduce){
+      flash.classList.add("on");
+      setTimeout(function(){render();setTimeout(function(){flash.classList.remove("on");},80);},320);
+    }else render();
+  }
+
+  /* ---------- COVER ---------- */
+  function renderCover(scene){
+    var sc=el("div","scene cover-scene");
+    var stack=el("div","cover-stack");
+    var book=el("div","cover-book");
+    var face=el("div","face");
+    var img=document.createElement("img");
+    img.src="cover.jpg";img.alt="The Corrupted Biography of CÃ©sar CortÃ©s — cover";
+    face.appendChild(img);book.appendChild(face);
+    var meta=el("div","cover-meta");
+    var bylines="";
+    Array.prototype.forEach.call(coverSrc.querySelectorAll(".byline"),function(b){bylines+="<div>"+b.innerHTML+"</div>";});
+    meta.innerHTML=bylines+"<div style='margin-top:14px'>"+coverSrc.querySelector(".meta").innerHTML+"</div>";
+    var start=el("div","cover-start");start.textContent="Click to start";
+    stack.appendChild(book);stack.appendChild(meta);stack.appendChild(start);
+    sc.appendChild(stack);stage.appendChild(sc);
+    function open(e){
+      if(e&&e.target.tagName==="A")return; /* let links work */
+      if(reduce){gotoScene(state.sceneIndex+1);return;}
+      book.classList.add("opening");
+      setTimeout(function(){gotoScene(state.sceneIndex+1);},500);
+    }
+    stack.addEventListener("click",open);
+  }
+
+  /* ---------- BOOK ---------- */
+  function renderBook(scene,opts){
+    var sc=el("div","scene enter book-scene");
+    var book=el("div","book");
+    var paper=el("div","book-paper");
+    var viewport=el("div","viewport");
+    var clip=el("div","clip");
+    var flow=el("div","flow");
+    if(scene.toc){
+      var tp=el("div","toc-page");
+      tp.appendChild(scene.toc.cloneNode(true));
+      Array.prototype.forEach.call(tp.querySelectorAll("a"),function(a){
+        var id=a.getAttribute("href").slice(1);
+        a.addEventListener("click",function(ev){ev.preventDefault();jumpTo(id);});
+      });
+      flow.appendChild(tp);
+    }
+    scene.chapters.forEach(function(c){c.nodes.forEach(function(n){flow.appendChild(n.cloneNode(true));});});
+    clip.appendChild(flow);viewport.appendChild(clip);paper.appendChild(viewport);book.appendChild(paper);sc.appendChild(book);
+    stage.appendChild(sc);
+    state.flow=flow;state.book=book;state.viewport=viewport;state.clip=clip;
+    layoutBook();
+    if(opts&&opts.atEnd)state.pos=maxPos();
+    else if(opts&&typeof opts.pos==="number")state.pos=clampPos(opts.pos);
+    else state.pos=0;
+    applyBookTransform(false);
+    updateProgress();
+    if(window.ResizeObserver){
+      if(state._ro)state._ro.disconnect();
+      state._ro=new ResizeObserver(scheduleRelayout);
+      state._ro.observe(state.clip);
+    }
+  }
+  function layoutBook(){
+    state.perView=1;
+    var leaf=state.flow.clientWidth;
+    state.flow.style.columnWidth=leaf+"px";
+    state.leaf=leaf;
+    var total=state.flow.scrollWidth;
+    state.leaves=Math.max(1,Math.round(total/leaf));
+    state.pos=clampPos(state.pos);
+    mapChapters();
+  }
+  function mapChapters(){
+    state.chapterLeaf={};
+    var prev=state.flow.style.transform;
+    state.flow.style.transition="none";
+    state.flow.style.transform="translateX(0px)";
+    var flowLeft=state.flow.getBoundingClientRect().left;
+    Array.prototype.forEach.call(state.flow.querySelectorAll("h2[id]"),function(h){
+      var k=Math.round((h.getBoundingClientRect().left-flowLeft)/state.leaf);
+      state.chapterLeaf[h.id]=k;
+    });
+    state.flow.style.transform=prev||"translateX(0px)";
+    requestAnimationFrame(function(){state.flow.style.transition="";});
+  }
+  function maxPos(){var spreads=Math.ceil(state.leaves/state.perView);return Math.max(0,(spreads-1)*state.perView);}
+  function clampPos(p){p=Math.max(0,Math.min(p,maxPos()));return Math.floor(p/state.perView)*state.perView;}
+  function applyBookTransform(animate){
+    var leaf=state.flow.clientWidth||state.leaf;state.leaf=leaf;
+    state.flow.style.columnWidth=leaf+"px";
+    var x=-state.pos*leaf;
+    if(!animate){state.flow.style.transition="none";}
+    state.flow.style.transform="translateX("+x+"px)";
+    if(!animate)requestAnimationFrame(function(){state.flow.style.transition="";});
+  }
+  function bookNext(){
+    if(state.pos<maxPos()){state.pos+=state.perView;applyBookTransform(true);updateProgress();}
+    else gotoScene(state.sceneIndex+1,{from:"book"});
+  }
+  function bookPrev(){
+    if(state.pos>0){state.pos-=state.perView;applyBookTransform(true);updateProgress();}
+    else gotoScene(state.sceneIndex-1,{atEnd:true,from:"book"});
+  }
+  function updateProgress(){
+    if(state.curType!=="book")return;
+    var spreads=Math.ceil(state.leaves/state.perView);
+    var cur=Math.floor(state.pos/state.perView)+1;
+    pageCount.textContent=cur+" / "+spreads;
+    var mp=Math.max(1,(spreads-1)*state.perView);
+    progress.style.width=(state.pos/mp*100)+"%";
+  }
+
+  /* ---------- CONSOLE (typewriter) ---------- */
+  var caretEl=null;
+  function caret(){if(!caretEl)caretEl=el("span","caret");return caretEl;}
+  function moveCaretAfter(node){var c=caret();if(node.parentNode)node.parentNode.insertBefore(c,node.nextSibling);}
+  function removeCaret(){if(caretEl&&caretEl.parentNode)caretEl.parentNode.removeChild(caretEl);}
+  function collectTextNodes(elm){
+    var out=[];
+    (function walk(n){
+      for(var c=n.firstChild;c;c=c.nextSibling){
+        if(c.nodeType===3){if(c.nodeValue.length)out.push(c);}
+        else if(c.nodeType===1){if(c.className==="caret")continue;walk(c);}
+      }
+    })(elm);
+    return out;
+  }
+  function renderConsole(scene){
+    var sc=el("div","scene console-scene");
+    var term=el("div","term");
+    var bar=scene.src.querySelector(".term-bar").cloneNode(true);
+    bar.classList.add("boot");
+    var screen=el("div","term-screen");screen.setAttribute("aria-live","polite");
+    var srcBody=scene.src.querySelector(".term-body");
+    Array.prototype.forEach.call(srcBody.children,function(c){screen.appendChild(c.cloneNode(true));});
+    var cont=el("div","term-continue");cont.textContent="click to continue ▸";
+    screen.appendChild(cont);
+    term.appendChild(bar);term.appendChild(screen);sc.appendChild(term);stage.appendChild(sc);
+    /* stash full text for every node */
+    collectTextNodes(screen).forEach(function(n){n.__full=n.nodeValue;});
+    state.consoleScreen=screen;state.consoleCont=cont;state.typing=true;state.skipReq=false;
+    state.blocks=Array.prototype.slice.call(screen.children).filter(function(c){return c!==cont;});
+    state.blocks.forEach(function(b){b.style.display="none";});
+    if(reduce){finishConsole();}
+    else state._t=setTimeout(function(){typeNextBlock(0);},480);
+  }
+  function typeNextBlock(i){
+    if(state.skipReq)return;
+    if(i>=state.blocks.length){consoleDone();return;}
+    var b=state.blocks[i];b.style.display="";
+    typeBlock(b,function(){
+      var pause=b.matches("pre.out")?150:(b.className.indexOf("thought")>-1?300:120);
+      state._t=setTimeout(function(){typeNextBlock(i+1);},pause);
+    });
+  }
+  function typeBlock(b,cb){
+    var tns=collectTextNodes(b);
+    tns.forEach(function(n){n.nodeValue="";});
+    var isOut=b.matches("pre.out");
+    var speed=isOut?6:(b.className.indexOf("thought")>-1?16:12);
+    var chunk=isOut?3:1;
+    var i=0,j=0;
+    function tick(){
+      if(state.skipReq)return;
+      if(i>=tns.length){cb();return;}
+      var full=tns[i].__full||"";
+      j=Math.min(full.length,j+chunk);
+      tns[i].nodeValue=full.slice(0,j);
+      moveCaretAfter(tns[i]);
+      state.consoleScreen.scrollTop=state.consoleScreen.scrollHeight;
+      if(j>=full.length){i++;j=0;}
+      state._t=setTimeout(tick,speed);
+    }
+    tick();
+  }
+  function skipConsole(){
+    if(!state.typing)return;
+    state.skipReq=true;clearTimeout(state._t);
+    finishConsole();
+  }
+  function finishConsole(){
+    state.blocks.forEach(function(b){
+      b.style.display="";
+      collectTextNodes(b).forEach(function(n){if(n.__full!=null)n.nodeValue=n.__full;});
+    });
+    removeCaret();
+    consoleDone();
+  }
+  function consoleDone(){
+    state.typing=false;removeCaret();
+    state.consoleScreen.scrollTop=state.consoleScreen.scrollHeight;
+    state.consoleCont.classList.add("show");
+  }
+
+  /* ---------- END ---------- */
+  function renderEnd(scene){
+    var sc=el("div","scene end-scene");
+    var card=el("div","end-card");
+    card.innerHTML='<div class="the-end">The End</div>'+
+      '<p>The Corrupted Biography of CÃ©sar CortÃ©s<br>by Daniel Chaves Gómez</p>'+
+      '<div class="end-actions"><a href="'+EPUB+'">↓ Download .epub</a>'+
+      '<button data-act="restart">Read again</button>'+
+      '<button data-act="plain">Plain version</button></div>';
+    sc.appendChild(card);stage.appendChild(sc);
+    card.querySelector('[data-act="restart"]').onclick=function(){gotoScene(0);};
+    card.querySelector('[data-act="plain"]').onclick=enablePlain;
+  }
+
+  /* ---------- jump / chrome ---------- */
+  function jumpTo(id){
+    closeMenu();
+    if(id==="ch10"){gotoScene(idxOf("console-10"));return;}
+    if(id==="ch12"){gotoScene(idxOf("console-12"));return;}
+    if(id==="ch11"){gotoScene(idxOf("book-B"));return;}
+    gotoScene(idxOf("book-A"));
+    var leaf=state.chapterLeaf[id]||0;
+    state.pos=clampPos(Math.floor(leaf/state.perView)*state.perView);
+    applyBookTransform(false);updateProgress();
+  }
+  function updateChrome(){
+    var isBook=state.curType==="book";
+    pageCount.classList.toggle("show",isBook);
+    progress.classList.toggle("show",isBook);
+    if(!isBook)progress.style.width="0";
+  }
+
+  /* ---------- input ---------- */
+  stage.addEventListener("click",function(e){
+    if(state.curType==="book"){
+      var x=e.clientX,w=window.innerWidth;
+      if(x<w*0.28)bookPrev();else bookNext();
+    }else if(state.curType==="console"){
+      if(state.typing)skipConsole();else gotoScene(state.sceneIndex+1);
+    }
+  });
+  document.addEventListener("keydown",function(e){
+    if(!body.classList.contains("reader-active"))return;
+    if(menuOpen){if(e.key==="Escape")closeMenu();return;}
+    if(e.key==="Escape"){toggleMenu();return;}
+    if(state.curType==="book"){
+      if(e.key==="ArrowRight"||e.key===" "||e.key==="PageDown"){e.preventDefault();bookNext();}
+      else if(e.key==="ArrowLeft"||e.key==="PageUp"){e.preventDefault();bookPrev();}
+      else if(e.key==="Home"){state.pos=0;applyBookTransform(true);updateProgress();}
+      else if(e.key==="End"){state.pos=maxPos();applyBookTransform(true);updateProgress();}
+    }else if(state.curType==="console"){
+      if(e.key==="ArrowRight"||e.key===" "){e.preventDefault();if(state.typing)skipConsole();else gotoScene(state.sceneIndex+1);}
+    }else if(state.curType==="cover"){
+      if(e.key==="Enter"||e.key===" "){var s=document.querySelector(".cover-stack");if(s)s.click();}
+    }
+  });
+  /* touch swipe */
+  var tx=0,ty=0;
+  stage.addEventListener("touchstart",function(e){tx=e.touches[0].clientX;ty=e.touches[0].clientY;},{passive:true});
+  stage.addEventListener("touchend",function(e){
+    var dx=e.changedTouches[0].clientX-tx,dy=e.changedTouches[0].clientY-ty;
+    if(state.curType==="book"&&Math.abs(dx)>45&&Math.abs(dx)>Math.abs(dy)){
+      if(dx<0)bookNext();else bookPrev();
+    }
+  },{passive:true});
+
+  /* resize / container-size changes */
+  var rt;
+  function relayoutBook(){
+    if(state.curType!=="book"||!state.flow)return;
+    var frac=state.pos/Math.max(1,state.leaves);
+    layoutBook();
+    state.pos=clampPos(Math.round(frac*state.leaves));
+    applyBookTransform(false);updateProgress();
+  }
+  function scheduleRelayout(){clearTimeout(rt);rt=setTimeout(relayoutBook,140);}
+  window.addEventListener("resize",scheduleRelayout);
+
+  /* ---------- plain mode ---------- */
+  function enablePlain(){
+    try{localStorage.setItem("cb-plain","1");}catch(e){}
+    closeMenu();
+    body.classList.remove("reader-active","reader-dark");
+    reader.style.display="none";
+    window.scrollTo(0,0);
+    addBookSwitch();
+  }
+  function addBookSwitch(){
+    if(document.getElementById("book-switch"))return;
+    var b=el("button");b.id="book-switch";b.textContent="Read as book ▸";
+    b.style.cssText="position:fixed;right:14px;bottom:12px;z-index:60;cursor:pointer;border:1px solid var(--rule);background:var(--card);color:var(--accent);font:600 .8rem -apple-system,Segoe UI,Roboto,sans-serif;padding:8px 14px;border-radius:22px;box-shadow:0 4px 16px rgba(0,0,0,.12);";
+    b.onclick=function(){try{localStorage.removeItem("cb-plain");}catch(e){}location.href=location.pathname;};
+    document.body.appendChild(b);
+  }
+
+  /* ---------- init ---------- */
+  var params=new URLSearchParams(location.search);
+  var wantPlain=params.get("plain")==="1";
+  var savedPlain=false;try{savedPlain=localStorage.getItem("cb-plain")==="1";}catch(e){}
+  if(wantPlain||savedPlain){addBookSwitch();return;}
+  body.classList.add("reader-active");
+  gotoScene(0);
+})();
+</script>
 </body>
 </html>
