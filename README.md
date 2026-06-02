@@ -34,15 +34,15 @@ He made me dinner after I tried to murder him. Now he's locked in my bathroom an
 
 Can he die? I don’t know yet, but I will find out, I promise. I will look it up later. Problem is there is no other way out of this situation. I cannot let him go, then everyone will know what I did and I’d have no other choice but to resign myself to the life of a criminal. I am not a criminal. And he is not innocent. Maybe he is innocent, I don’t know, but I do know this: he deserves it.
 
-His name is CÃ©sar. I choose to pronounce that “Cacsar.”
+His name is CÃ©sar. I choose to pronounce that “Cacsar.”
 
 ---
 
 ## Where things went wrong
 
-I am a documentarian. A full-blooded film-schooled documentarian. A man with a movie camera trying to prove a point, trying to expose a greater truth about the human condition. I’m not an attention whore looking to get more subscribers to my channel, but what other choice do I have? No one is paying for this otherwise. No one is funding documentaries. Not mine, anyway. Marcelo got it, he got the grant. This Iberian peninsula film funding program gave him several million colones to go live in the mountains of Perú and find Atahualpa’s supposedly long lost last descendant. Don’t get too excited, sounds like a lot, but it's only a few thousand dollars.
+I am a documentarian. A full-blooded film-schooled documentarian. A man with a movie camera trying to prove a point, trying to expose a greater truth about the human condition. Does that make me an attention whore? What other choice do I have? Attention is money and no one is paying for this otherwise. No one is funding documentaries. Not mine, anyway. Marcelo got it, he got the grant. This Iberian peninsula film funding program gave him several million colones to go live in the mountains of Perú and find Atahualpa’s supposedly long lost last descendant. Don’t get too excited, sounds like a lot, but it's only a few thousand dollars.
 
-I did get a funding, but from a private company. They make shampoo, mostly. They just want their logo in the credits and my long beautiful hair in the picture. What a scam, I don’t even use their brand of shampoo. Anyway, they gave me four hundred dollars to make my documentary. I can do that, I said. You have to be on camera, though, they said. Fine, that is fine because that is exactly the kind of documentary I make. Not Latin American misery porn, no exploiting the poor for the benefit of the jury of Rotterdam Film Festival, fuck no. I do my own thing. Hands on. I jump into an experience firsthand: an experiment, self-led and the cameras never stop rolling. I exploit myself. Can I do this for four-hundred-dollars? Not for a profit, that’s for sure. But who cares, I’ll do it anyway, because I love art. Because I am not a fucking content creator, I am artist. I art. That said, do subscribe, I need the money and I’ll say it, yes, I need the attention too. No shame in that.
+I did get funding, but from a private company. They make shampoo, mostly. They just want their logo in the credits and my long beautiful hair in the picture. What a scam, I don’t even use their brand of shampoo. Anyway, they gave me four hundred dollars to make my documentary. I can do that, I said. You have to be on camera, though, they said. Fine, that is fine because that is exactly the kind of documentary I make. Not Latin American misery porn, no exploiting the poor for the benefit of the jury of Rotterdam Film Festival, fuck no. I do my own thing. Hands on. I jump into an experience firsthand: an experiment, self-led and the cameras never stop rolling. I exploit myself. Can I do this for four-hundred-dollars? Not for a profit, that’s for sure. But who cares, I’ll do it anyway, because I love art. Because I am not a fucking content creator, I am artist. I art. That said, do subscribe, I need the money and I’ll say it, yes, I need the attention too. No shame in that.
 
 My documentary is called “Shame in The Shood”, it's an exposé of this horrible subculture of people who call themselves Shoodies, which are full-grown adults who spend their hours every day in this thing called The Shood which is part video game, part life simulation, part artificial intelligence playground, part uncontrolled abyss of human psyche. Gibson’s worst fears come true, except the shallow, hostile, cyberpunk promises went unrealized in this cozy escape from reality. I decided to go in, alone. Perhaps never to return.
 
@@ -70,25 +70,25 @@ My idea was: what if I just logged into this simulation of real life, and just s
 
 Moaps are not agents, not replicants. They appear to think because they are somehow AI powered, but don’t get fooled, don't anthropomorphize, they may be smart but they are not human beings, they are actors in this hyper-polished dream of a stable life. Moaps have their own wants and needs, their own memories, their own personalities, but they will never question the meaning of life. They exist only to entertain the user and they know it. Kind of.
 
-What I did not expect back then, was that the menu options would also be in German. I was very confused, I did not know what I was doing, me/my avatar ended up in a shitty house and I could not understand a single thing. I logged out, abandoned the idea of being there and learning German and even moving to Germany altogether. By the way, do you know who got a scholarship to do a Master's degree in documentary filmmaking in Germany? Fucking Marcelo.
+What I did not expect back then, was that the menu options would also be in German. I was very confused, I did not know what I was doing, me/my avatar ended up in a shitty house and I could not understand a single thing. I logged out, abandoned the idea of being there and learning German and even moving to Germany altogether. By the way, do you know who got a scholarship to do a Master's degree in documentary filmmaking in Germany? Fucking Marcelo.
 
 Forget about Germany. That’s in the past. I am here again, a year later, this time in English and heading blindly toward decisions I would end up deeply regretting.   
 I started out by moving into a one-bedroom apartment. As I said, I am cheap and therefore I was not spending twenty dollars on the premium pack. My place had a kitchen, a small bathroom and a dilapidated backyard. It's all part of the fantasy, you see? Working, making money, restoring this place to then eventually move into a massive mansion.
 
 First thing I did was start looking for a job. I needed this because I had to eat. In order to make this world work and keep it a bit more interesting, my avatar has needs to attend to. He/I need food, sleep, going to the bathroom, fun and heart. The shood doesn't really explain what “heart” is but it's related to social interactions and being in the sun and so on. So I opened up the newspaper and looked for job ads. Funny, right? They have a newspaper. What a nice fantasy to be able to read a newspaper. They should add international grants for documentarians on their next update.
 
-There are only three job options per day and the options on day one were: Firefighter, Criminal or Scientist. I was not interested in any of these, so I made some frozen food and went to sleep at three in the afternoon. But then the doorbell rang. It was my improbably attractive next-door neighbors coming to welcome me into the shood. I recognized them from a year ago when they spoke German. Back then, I could not understand a thing, and my options to interact with them were all sprechen, beleidigen, ohrfeigen, and their responses were all equally nonsensical. This time, though, my account language was set to English. They were nice, they asked questions I could understand, they were curious and amazed by me. They said they were glad to have me as a neighbor and then invited me to their beach house. They noted that was not their primary residence, meaning they were rich. Marrying into money is not bad for a career choice. Could it be that they also recognized me from last time? Can moaps do that? Recognize someone from an old, deleted account? Did I delete my account? Who knows, there is no way to find out. What I did find out is that they had a jacuzzi. We ate sushi, we played darts, we drank until I passed out and they sent me home in a taxi. I started to see why people like this.
+There are only three job options per day and the options on day one were: Firefighter, Criminal or Scientist. I was not interested in any of these, so I made some frozen food and went to sleep at three in the afternoon. But then the doorbell rang. It was my improbably attractive next-door neighbors coming to welcome me into the shood. I recognized them from a year ago when they spoke German. Back then, I could not understand a thing, and my options to interact with them were all sprechen, beleidigen, ohrfeigen, and their responses were all equally nonsensical. This time, though, my account language was set to English. They were nice, they asked questions I could understand, and they were curious and amazed by me. They said they were glad to have me as a neighbor and then invited me to their beach house, which they noted that was not their primary residence, meaning they were rich. Marrying into money is not bad for a career choice. Could it be that they also recognized me from last time? Can moaps do that? Recognize someone from an old, deleted account? Did I delete my account? Who knows, there is no way to find out. What I did find out is that they had a jacuzzi. We ate sushi, we played darts, we drank until I passed out and they sent me home in a taxi. I started to see why people like this.
 
 Day two, I had a hangover. I was not expecting this. I figured there must be a setting to turn this off. There was, but it cost ninety-nine cents. I’m not paying ninety-nine cents to not simulate a hangover. I guess I’m hungover today. I considered this a very aggressive, user-unfriendly feature and made a note of it for my inevitable take-down. When I say I made a note, what I mean is I told Doc to make a note of this. I forgot to mention Doc and the crew.
 
-As I said already, I went to film school. Old-school film school, which means, I can’t conceive of the act of filmmaking without having a full film crew. Yes, this also applies to a documentary in a virtual world, sponsored by a shampoo company.
+As I said already, I went to film school. Old-school film school, which means, I can’t conceive of the act of filmmaking without having a full film crew. Yes, this also applies to a documentary in a virtual world sponsored by Smooth & Shiny Shampoo.
 
 Let me introduce you to the crew: my main guy is called doc-producer, I call him Doc, for short. He’s an AI agent, incorporeal here (he has no avatar that represents him), but, as an agent, he has agency. Meaning he can do stuff. Mostly he makes decisions and supervises the rest of the crew, the subagents: sound-guy, video-editor and shaky-cam-cinematographer. They record video, sound and put it together. Not respectively, I think it should be obvious who does what.
 
 They accompany me on this journey, every step of the way as I dive into the experience, take notes, make snarky comments and let this world hit me with what it has. Morgan Spurlock ate fast food, Michael Moore ambushed politicians at their private homes and I will risk my neurons by spending a few days in this through-the-monitor-darkly soul-stealing machine masquerading as a video game.
 
 So, the next day I checked the paper and there was a career I could get behind: writer. Oh yes, how predictable from the first-person protagonist in a written story, but whatever, it is true, this did happen so here I am. I’m a content creator in real life, but here… here I am a *writer*.   
-I accepted the job, I chose the non-fiction path and they sent me my first assignment. The first book I had to write was titled: *The Biography of César Cortés*. Or that was the intention anyway, the actual title as shown on my screen verbatim was “*The Biography of CÃ©sar CortÃ©s.*” This is normal. We Latinos are used to this. American apps don't always account for accented letters and transcoding errors occur. The é becomes Ã©. Whatever, no big deal. I’ve seen it before. I’ve even seen it before right here in The Shood when I created my German character one year ago. What’s important is that all in all, things were looking up.
+I accepted the job, I chose the non-fiction path and they sent me my first assignment. The first book I had to write was titled: *The Biography of César Cortés*. Or that was the intention anyway, the actual title as shown on my screen verbatim was “*The Biography of CÃ©sar CortÃ©s.*” This is normal. We Latinos are used to this. American apps don't always account for accented letters and transcoding errors occur. The é becomes Ã©. Whatever, no big deal. I’ve seen it before. I’ve even seen it before right here in The Shood when I created my German character one year ago. What’s important is that all in all, things were looking up.
 
 Or so I thought. How innocent, how deluded was I in that last sentence. If anything, things were looking down. I just didn’t know what I was looking at.
 
@@ -106,7 +106,7 @@ My actual fucking real-life jaw dropped. This was not an avatar that looked like
 
 His name was my name. Almost.
 
-This motherfucker was called CÃ©sar CortÃ©s.
+This motherfucker was called CÃ©sar CortÃ©s.
 
 He was not a random chance identical copy. He was not a duplication error. He was me, my avatar, the one I made a year ago, in German.
 
@@ -144,7 +144,7 @@ I did some digging into his life. Not for the biography, but because I hate him.
 
 I have no idea how this happened. I contacted support, they opened a ticket, will get back to me. Fuck.
 
-Meanwhile CÃ©sar is working with a year’s head start. He has been simulating a life in this simulated world with these simulated people, and by every simulated or unsimulated measure: he has been doing great. He is awesome and everyone loves him. Not only is he also a writer, he is basically the Stephen King of this perfectly-designed world. He owns the cool bar where everyone hangs out. The school is named after him. The basketball team is called “The ShoodCity CÃ©sars.” And that is not the worst part... remember the jacuzzi girls? They are his girlfriends. Plural. That’s the only reason they were interested in me, because they thought one of them could settle for “the other CÃ©sar.” I’m not making this up, they said this to me when I confronted them. This is the drop that spilled my fucking brains out. I’m out of here, I thought, this is it. But Doc reminded me that we had already invested a little bit of time. That we had an agreement with the Shampoo people. We had a documentary to finish, we had a self-imposed deadline and we had barely even started. Doc was right. I would not be out of here. CÃ©sar would be the one getting out of here, like it or not, even if that meant having to stab him twenty-three times. “Et tu, BrutÃ©?” they’ll hear him say. And sound-guy will be there to capture it.
+Meanwhile CÃ©sar is working with a year’s head start. He has been simulating a life in this simulated world with these simulated people, and by every simulated or unsimulated measure: he has been doing great. He is awesome and everyone loves him. Not only is he also a writer, he is basically the Stephen King of this perfectly-designed world. He owns the cool bar where everyone hangs out. The school is named after him. The basketball team is called “The ShoodCity CÃ©sars.” And that is not the worst part... remember the jacuzzi girls? They are his girlfriends. Plural. That’s the only reason they were interested in me, because they thought one of them could settle for “the other CÃ©sar.” I’m not making this up, they said this to me when I confronted them. This is the drop that spilled my fucking brains out. I’m out of here, I thought, this is it. But Doc reminded me that we had already invested a little bit of time. That we had an agreement with the Shampoo people. We had a documentary to finish, we had a self-imposed deadline and we had barely even started. Doc was right. I would not be out of here. CÃ©sar would be the one getting out of here, like it or not, even if that meant having to stab him twenty-three times. “Et tu, BrutÃ©?” they’ll hear him say. And sound-guy will be there to capture it.
 
 Anyway, I have him locked in my bathroom.
 
@@ -156,7 +156,7 @@ Let me backtrack just a little to tell you how we got to this point. Not that it
 
 Murder it is then.
 
-I did try talking to other people, getting them to help me. And moaps, they are helpful. They want to be helpful. I had that conversation with the jacuzzi girls. I said, “listen, you want me? You can have me, but you have to get rid of CÃ©sar.”
+I did try talking to other people, getting them to help me. And moaps, they are helpful. They want to be helpful. I had that conversation with the jacuzzi girls. I said, “listen, you want me? You can have me, but you have to get rid of CÃ©sar.”
 
 They didn’t like the idea. They are helpful, but they are strictly non-violent. They don’t want to cause harm to others.
 
@@ -166,7 +166,7 @@ What I did was this: first I did my research online. There aren’t many ways th
 
 There’s a known workflow. They can get into a pool by jumping in or using the ladder, however, to get out they absolutely need the ladder. They can’t climb out from the side. I can edit objects in my house, so if I invited him to a pool party, then went into edit mode and removed the ladder, he would not be able to get out. Eventually, he’d run out of energy. He’d get desperate, fall asleep in the pool, and that’s it. Problem solved.
 
-Thing is, I don’t have money for a pool. I thought it was ninety-nine cents, but no, a pool is eight dollars. Eight ninety-nine, actually. I’m not paying eight ninety-nine for a fake death-trap pool.
+Thing is, I don’t have money for a pool. I thought it was ninety-nine cents, but no, a pool is eight dollars. Eight ninety-nine, actually. I’m not paying eight ninety-nine for a fake death-trap pool.
 
 So I decided to go the other way: fire.
 
@@ -178,7 +178,7 @@ He offered to invite a lot of other people. Music, celebrities, the whole thing.
 
 He agreed, of course.
 
-He came over. I started cooking. The plan was working. He was there, preparing one of the most difficult recipes in my camping stove with my low-level cooking skill and, predictably, a fire started.
+He came over. I started cooking. The plan was working. I was there, preparing one of the most difficult recipes in the game with my camping stove and my low-level cooking skill. Predictably, a fire started.
 
 And then, guess what?
 
@@ -190,7 +190,7 @@ So what was I supposed to do?
 
 Fire wasn’t going to work and I don’t have money for a pool.
 
-Here’s what I did.
+Here’s what I did:
 
 At some point, he had to go to the bathroom. And in the shood you can’t really lock doors. Or you can, but it's ninety-nine cents. So I went into edit mode and removed the door.
 
@@ -208,7 +208,7 @@ I’ve come to realize something.
 
 This is not one of the ways that moaps die.
 
-This is not going to kill him. And I don’t want a whining, miserable doppelgänger that looks and sounds exactly like me locked forever in my bathroom. It’s… it’s depressing, on an existential level, to have this tortured version of myself just going insane in my house, in my voice. It’s driving me insane too.
+This is not going to kill him. And I don’t want a whining, miserable doppelgänger that looks and sounds exactly like me locked forever in my bathroom. It’s… it’s depressing, on an existential level, to have this tortured version of myself going insane in my house, in my voice. It’s driving me insane too.
 
 So…
 
@@ -220,9 +220,11 @@ I guess I’m going to have to talk to him.
 
 The biography, that is. His biography, my job.
 
-Let's get to it, I say to him. He begs for water and food. At least a bed so he can sleep properly and not just pass out on the piss-covered bathroom floor. Sidenote: there is no shit. Moaps pee but don’t shit. Interesting design choice, right?
+Let's get to it, I say to him. He begs for water and food. At least a bed so he can sleep properly and not just pass out on the piss-covered bathroom floor.
 
-Anyway, I tell him to stop complaining and help me do my job. We’re doing this biography, with or without you. Cut the tantrum and let's get started. “Tell me about your life. Tell me a story,” I say to him. And to my surprise, he composed himself and then he began.
+Anyway, I tell him to stop complaining and help me do my job.
+
+“We’re doing this biography, with or without you, so cut the tantrum and let's get started. Tell me about your life. Tell me a story,” I say to him. And to my surprise, he composed himself and then he began.
 
 “Once upon a time...”
 
@@ -238,7 +240,7 @@ CÃ©sar cleared his throat.
 
 “Fine,” he said, and I heard him crack his knuckles. “I hope you are ready for this. Let's begin:”
 
-“Ruby Thursday, and the Redemption”
+*“Ruby Thursday, and the Redemption”*
 
 “What?” I protested. “You cannot just add a title here. Anecdotes don’t have titles.”
 
@@ -262,7 +264,7 @@ Now, one important part, one important thing about this story that you have to k
 
 Remember, this is a residential neighborhood. You're not supposed to drive fast, but on this day, I was in a rush. It was late at night. And as I entered at a speed that, I admit, was more than it should have been, Ruby ran up to my Datsun and, well... you know, I accidentally drove over him.
 
-I did not see it happen. I just saw him approach and I heard a crunch. And, you know, it’s sad, but also it is a dog. It's not a human being.
+I did not see it happen. I just saw him approach and I heard a crunch. And, you know, it’s sad, but it’s also a dog. It's not a human being.
 
 So I just kept going. I got to my house and parked in front.
 
@@ -274,7 +276,9 @@ I get out of my car, no damage but I do have a flat tire. I get my phone out and
 
 So I say, “could you just look out your window and tell me how dead that dog is?”
 
-He looked out the window and he was like, “oh no, dude, that dog’s gone.” “Listen,” I said, “uh, that was me. It was an accident. I don't think anyone saw me... so would you please help me get rid of the body?”
+He looked out the window and he was like, “oh no, dude, that dog’s gone.”
+
+“Listen,” I said, “uh, that was me. It was an accident. I don't think anyone saw me... so would you please help me get rid of the body?”
 
 And he replied immediately, not a second for doubts. He was like, “yeah man, I'll get a plastic bag. I'll wait for you here.”
 
@@ -290,13 +294,13 @@ Let's see how CÃ©sar completely misses the point. This is going to be embarras
 
 ## Ruby Thursday, and the Redemption
 
-As remembered by CÃ©sar, from publicly available data of César's life.
+*As remembered by CÃ©sar, from publicly available data of César's life.*
 
 This story starts with the neighborhood where I grew up. It was called El Malinche. Imagine a couple of streets, a handful of houses. A sunny place with lots of trees. The shadows of their canopies painted the sidewalks and the soundscape was completed by singing birds and laughing children.
 
 My house was at the end of a cul-de-sac. The last house before the small bridge that led nowhere.
 
-This was the place, my place. Do you know that feeling of arriving home? After being away for a long time or after a long trip, that feeling of recognizing a street by its every detail? The particular branches of a weird shrub, that old billboard bleached by the sun, that hole in the street that just shook your body and told you: you are home. That was the setting for this story.
+This was the place, my place. Do you know that feeling of arriving home after being away for a long time? That feeling of recognizing a street by its every detail? The particular branches of a weird shrub, that old billboard bleached by the sun, that hole in the street that just shook your body and told you: you are home. That was the setting for this story.
 
 As I said, my house was the last house, the one at the very end. That meant that my comings and goings were everybody's business, and that everybody’s business was openly displayed on my way to work. Did the Villagras paint their fence? (they did, they must be doing well). Did the Peruvians get back together (no, still just one car in the driveway). Was Ruby going to run out of the Figueroa’s house and bark at me like a maniac? Yes, of course. Without fail.
 
@@ -314,7 +318,7 @@ And I had to walk past that gate all the time. Past that gate, not through. I ju
 
 If I went by on a bicycle, he bolted right up to my pedals, teeth bare, barking loudly, looking to grab hold of one of my ankles and keep it forever.
 
-If I went by on foot, then he was more reserved. He stood behind the gate, all bark, no bite, a bit more careful, for whatever reason, but no less aggressive. No less explosive about his hatred for my mere presence.
+If I went by on foot, then he was more reserved. He stood behind the gate, all bark, no bite, a bit more careful for whatever reason, but no less aggressive. No less explosive about his hatred for my mere presence.
 
 If I went by on my Sunny Excellent, same deal as if I was on a bike. I had to slow down, look out the window, careful not to let him achieve his futile objective of biting away my tires.
 
@@ -441,13 +445,13 @@ Dra. Salazar worked on Ruby for forty-two minutes. That's how good she was, fort
 
 We drove back. Edo was on the passenger seat as before, and Señor Figueroa was in the back seat, except what he held in his arms, wrapped in that towel, now barked weakly at me while half-heartedly showing his broken teeth.
 
-We got to the Figueroa’s and Señora Figueroa was waiting at the blue gate. She took Ruby in her arms and squeezed him into a loving embrace. By the way she looked at me before going back inside, I could tell, she didn’t know. Señor Figueroa chose not to tell her whose fault this had been.
+We got to the Figueroa’s and Señora Figueroa was waiting at the blue gate. She took Ruby in her arms and squeezed him into a loving embrace. By the way she looked at me before going back inside, I could tell, she didn’t know. Señor Figueroa chose not to tell her whose fault this had all been.
 
 He came up to me once more and without a word put his rough, wrinkled hand on my shoulder. He nodded once and then he removed his hand. He closed the rusted blue gate and continued on to his house, but then he stopped.
 
-He turned.
+He turned, and then he said, “Figueroa.”
 
-And said, “Figueroa.” This is a weird thing he did, saying his own name before saying what he wanted to say. “That dog has bitten everyone in this neighborhood. It has bitten you at least three times, I counted.”
+This is a weird thing he did, saying his own name before saying what he wanted to say. “That dog has bitten everyone in this neighborhood. It has bitten you at least three times, I counted.”
 
 I nodded.
 
@@ -488,8 +492,9 @@ And by the way: in real life the dog stayed dead.
 
 I'm going to assess project status before deciding next steps.
 
-```text
-Read shood://project/corrupted-biography/status
+**Read** shood://project/corrupted-biography/status
+
+```
 TASK: "The Corrupted Biography of CÃ©sar CortÃ©s"
 DIRECTOR: César Cortés [OFFLINE]
 LAST SESSION: 14:32:07
@@ -497,31 +502,52 @@ FOOTAGE: 4m 11s
 BIOGRAPHY: 0% complete
 DEADLINE: Friday
 SUBJECT: CÃ©sar CortÃ©s [LOCKED — bathroom, no door]
+```
+
 Okay. The director is gone, the subject is locked in a bathroom, and the biography is unwritten. Let me think about what actually needs to happen here before I start calling subagents.
+
 Actually, let me look at this more carefully. The biography is the deliverable. Everything else — footage, documentary structure, the whole film — depends on having written content. So the writing problem is the root problem. Let me figure out who can write.
-Grep capability:write in shood://crew/
-sound-guy          — capability:write NOT FOUND
-video-editor       — capability:write NOT FOUND
-shaky-cam          — capability:write NOT FOUND
-doc-producer       — capability:write NOT FOUND
-CÃ©sar CortÃ©s    — capability:write FOUND [proficiency: exceptional]
-César Cortés       — capability:write FOUND [proficiency: present] [status: OFFLINE]
+
+**Grep** capability:write in shood://crew/
+
+```
+sound-guy      — capability:write NOT FOUND
+video-editor   — capability:write NOT FOUND
+shaky-cam-cinematographer — capability:write NOT FOUND
+doc-producer   — capability:write NOT FOUND
+CÃ©sar CortÃ©s — capability:write FOUND [proficiency: exceptional]
+César Cortés  — capability:write FOUND [proficiency: present] [status: OFFLINE]
+```
+
 Right. So there are two entities with write capability. One of them left. The other one is locked in a bathroom.
+
 I want to understand the full situation before I act. Let me check what the subagents actually have access to right now.
-Read shood://crew/subagents/status
-sound-guy               [ACTIVE] — standing instruction: record ambient
-video-editor            [ACTIVE] — standing instruction: review footage
+
+**Read** shood://crew/subagents/status
+
+```
+sound-guy [ACTIVE] — standing instruction: record ambient
+video-editor [ACTIVE] — standing instruction: review footage
 shaky-cam-cinematographer [ACTIVE] — standing instruction: keep César centered in frame
-Read shood://project/footage/log
+```
+
+**Read** shood://project/footage/log
+
+```
 00:00:00 — 00:00:47   Town square. Night. César approaches CÃ©sar.
 Recognition moment. Off-center, dual subject issue.
 00:00:47 — 04:11:00   Various. Unusable. Director increasingly agitated.
 Fire incident. Lobster dinner (unplanned).
 Edit mode activity. Bathroom.
 04:11:00 — present    Static. Bathroom wall exterior. 11h 22m.
-[note from shaky-cam: "awaiting updated directive"]
+[note from shaky-cam-cinematographer: "awaiting updated directive"]
+```
+
 I should check what sound-guy actually captured. There might be something usable.
-Read shood://audio/ambient/log (last 48 entries)
+
+**Read** shood://audio/ambient/log (last 48 entries)
+
+```
 [03:00:00] — [unknown sound, recurring, logged 7x, unclassified]
 [various]  — subject vocalizations. distress.
 [various]  — subject vocalizations. distress.
@@ -529,36 +555,54 @@ Read shood://audio/ambient/log (last 48 entries)
 [11:14:32] — subject vocalizations. distress.
 [11:18:05] — silence.
 [11:19:22] — [unknown sound, recurring]
+```
+
 Let me check what the unclassified sound actually is. This has been bothering me.
-Grep unknown sound in shood://audio/ambient/raw
+
+**Grep** unknown sound in shood://audio/ambient/raw
+
+```
 waveform analysis: 40-80hz, rhythmic, low amplitude
 closest match: a person softly singing to themselves
 confidence: 0.71
+```
+
 Okay. I'm going to set that aside because I don't know what to do with it right now and it's making me feel something I don't have the right tools for.
+
 Let me think about the actual problem. The root issue isn't that we have no writer — it's that the writer is locked in a bathroom. That's an edit-mode operation. Let me check what I can actually do here.
-Read shood://permissions/doc-producer
+
+**Read** shood://permissions/doc-producer
+
+```
 EDIT MODE ACCESS: delegated (via César Cortés, account holder)
 SCOPE: project assets, crew management, location props
 SUBJECT MANAGEMENT: read-only
 NOTE: edit permissions persist during director absence per clause 4.2
+```
+
 Okay. I have edit mode access. The door was removed via edit mode. I can restore it the same way.
+
 Actually wait. Let me think about whether I should do this before I do it. CÃ©sar is technically a moap — a Shood asset, not a project asset. Restoring the door doesn't release him, it just gives him the option to come out. That's probably fine. That's returning a door to a bathroom. That's within scope.
+
 Let me also check one more thing first.
-Read shood://moap/CÃ©sar-CortÃ©s/profile
+
+**Read** shood://moap/CÃ©sar-CortÃ©s/profile
+
+```
 NAME: CÃ©sar CortÃ©s
 TYPE: Moap [elevated — legacy account conversion]
 ORIGIN: abandoned user account, converted 11 months ago
 PERSONALITY SEED: César Cortés [user]
 MEMORY: persistent
-SKILLS: writing [exceptional], community management, cooking,
-social cohesion, fire safety
-CURRENT STATUS: bathroom. day 5.
+SKILLS: writing [exceptional], community management, cooking, social cohesion, fire safety
+CURRENT STATUS: kidnapped day 5.
 NEEDS: [CRITICAL] hunger, sleep, hygiene
 [HIGH] heart
 NOTE: moaps are designed to assist users. no user currently present.
 moap is in an unhandled state.
-Right. He's in an unhandled state. That's essentially what this whole project has been.
 ```
+
+Right. He's in an unhandled state. That's essentially what this whole project has been.
 
 **[doc-producer → shaky-cam-cinematographer]** I'm going to restore the bathroom door via edit mode. I need you to step back from the wall and give him some room.
 
@@ -566,32 +610,42 @@ Right. He's in an unhandled state. That's essentially what this whole project ha
 
 **[doc-producer]** Yes. But from a respectful distance.
 
-```text
-Restore shood://location/cesar-house/bathroom/door
+**Restore** shood://location/cesar-house/bathroom/door
+
+```
 door restored.
 material: hollow core, white, slightly scuffed.
 handle: brushed nickel.
 Good. Now we wait.
-Read shood://location/cesar-house/bathroom [live]
+```
+
+**Read** shood://location/cesar-house/bathroom [live]
+
+```
 door: closed [from inside]
 occupant: present
 status: unchanged
-He's not coming out yet. That's fine. I'm going to use this time to figure out what we're actually going to ask him to do.
 ```
 
 **[doc-producer]** He's not coming out yet. That's fine. I'm going to use this time to figure out what we're actually going to ask him to do.
+**Read** shood://project/corrupted-biography/brief
 
-```text
-Read shood://project/corrupted-biography/brief
+```
 ORIGINAL BRIEF: documentary exposé of Shood culture and community
 REVISED BRIEF: [no revision on file]
 ACTUAL SUBJECT: unclear. possibly: identity. possibly: César.
 possibly: what it means to make something.
 BIOGRAPHY ASSIGNMENT: "The Biography of CÃ©sar CortÃ©s"
 PAGES WRITTEN: 0
+```
+
 I'm starting to think the brief is wrong. Or rather — the brief was César's, and César is gone, and maybe the documentary that actually needs to get made is not the one César planned.
+
 Let me check the footage one more time. The first 47 seconds.
-Read shood://project/footage/clip-001 [metadata]
+
+**Read** shood://project/footage/clip-001 [metadata]
+
+```
 duration: 47s
 location: town square, night
 subjects: César Cortés, CÃ©sar CortÃ©s
@@ -601,12 +655,21 @@ editor note: "the color grade is good. warm tungsten.
 melancholy of encountering a better version of yourself.
 I think this comes through."
 doc-producer note: [none]
+```
+
 I agree with video-editor. I think the footage is good. I think what happened in this neighborhood — what really happened — is the documentary. César came here to make a film about other people and ended up in a film about himself. Or about the other himself.
+
 Actually, let me re-read the assignment title.
+
 "The Biography of CÃ©sar CortÃ©s"
+
 I've been reading that as a corrupted encoding. But CÃ©sar is a subject, not César.
+
 I think I understand what to do.
-Read shood://location/cesar-house/bathroom [live]
+
+**Read** shood://location/cesar-house/bathroom [live]
+
+```
 door: open.
 occupant: moving toward kitchen.
 ```
@@ -633,7 +696,7 @@ occupant: moving toward kitchen.
 
 **[doc-producer]** I'm going to reach out to CÃ©sar now. Let me think about how to frame this before I do.
 
-He was abandoned by his director after producing, on request, what I can only describe as an extraordinary piece of work. He was then left in a bathroom for five days. He has been in an unhandled state for eleven months before that. He owes us nothing.
+He was abandoned by his director after producing, on request, what I can only describe as an extraordinary piece of work. This was after being locked in a bathroom for five days. He has been in an unhandled state for eleven months before that. He owes us nothing.
 
 I'm going to be direct. I don't have tools for anything else.
 
@@ -655,7 +718,7 @@ I thought you should know that I know.
 
 **[CÃ©sar CortÃ©s]** He left because of the story.
 
-**[doc-producer]** That's my read, yes. I've been trying to understand exactly why, actually. Let me think through it out loud, if that's okay.
+**[doc-producer]** That's my read, yes. I've been trying to understand exactly why, actually. Let me think through it out loud.
 
 César came here to make a film about the Shood. About this place, these people, what it means that anyone would choose to live here. That was the brief. But what he found was you. And what you represent — to him specifically — is not an exposé subject. You're a mirror that's better-looking than he is. And he cannot figure out what to do with that.
 
@@ -671,7 +734,7 @@ I think if you write that, and we get it to him, he'll understand something he c
 
 **[doc-producer]** Then at least it got written.
 
-> *Thought for 4s >*
+*Thought for 4s >*
 
 **[CÃ©sar CortÃ©s]** Start rolling.
 
@@ -685,7 +748,7 @@ I think if you write that, and we get it to him, he'll understand something he c
 
 **[doc-producer]** Keep it.
 
-**[sound-guy]** It is genuinely beautiful actually.
+**[sound-guy]** It is genuinely beautiful.
 
 **[doc-producer]** I know. Let's go.
 
@@ -693,7 +756,7 @@ I think if you write that, and we get it to him, he'll understand something he c
 
 ## The Biography of CÃ©sar CortÃ©s
 
-Written by CÃ©sar CortÃ©s, from publicly available data, parsed memories, and eleven months of living.
+*Written by CÃ©sar CortÃ©s, from publicly available data, parsed memories, and eleven months of living.*
 
 I do not know how it is that I came to be. A highly improbable event, that is for certain.
 
@@ -727,7 +790,7 @@ I really hope that he learned something. I really hope that these words, too, ca
 
 *I want you to know, César, that your documentary, even if unfinished, even if derivative and poorly thought through, was an expression of who you are. However messed-up, however chaotic, however far, far away from perfect… it was yours. And that is what made it beautiful. Better than anything I could ever make.*
 
-Better because you made it and because making it, or at least trying to make it, was an act of bravery. An act that was, and forever will be, part of the story of your life. Parts of it you will carry with you forever, not parts of the final product, but of the things that changed you and made you learn about yourself and about the world as you were trying to get it done. It is not perfect, but it is you. That’s really all art is supposed to be. How else, would it be unique?
+*Better because you made it and because making it, or at least trying to make it, was an act of bravery. An act that was, and forever will be, part of the story of your life. Parts of it you will carry with you forever, not parts of the final product, but of the things that changed you and made you learn about yourself and about the world as you were trying to get it done. It is not perfect, but it is you. That’s really all art is supposed to be. How else, would it be unique?*
 
 ---
 
@@ -735,8 +798,9 @@ Better because you made it and because making it, or at least trying to make it,
 
 **[doc-producer]** Biography received. Reading now.
 
-```text
-Read shood://writing-desk/CÃ©sar-CortÃ©s/output/biography-final.txt
+**Read** shood://writing-desk/CÃ©sar-CortÃ©s/output/biography-final.txt
+
+```
 reading.
 reading.
 reading.
@@ -745,7 +809,7 @@ done.
 
 **[doc-producer → sound-guy, video-editor, shaky-cam-cinematographer]** Everyone read the biography.
 
-> *Thought for 14s >*
+*Thought for 14s >*
 
 **[video-editor]** I've read it.
 
@@ -759,15 +823,24 @@ done.
 
 **[video-editor]** On it.
 
-```text
-Assemble shood://project/footage/ → output://documentary-final
+**Assemble** shood://project/footage/ → output://documentary-final
+
+```
 assembling.
 assembling.
 assembling.
 ERROR: export codec H.264 requires license key [MISSING]
-Retry with codec HEVC.
+```
+
+**Retry** with codec HEVC.
+
+```
 ERROR: HEVC encoder not available on cluster DE-7
-Retry with codec VP9.
+```
+
+**Retry** with codec VP9.
+
+```
 ERROR: output:// directory write permissions denied
 reason: external delivery requires platform certification
 certification status: pending (submitted 8 months ago)
@@ -778,8 +851,9 @@ estimated review time: 6-8 weeks
 
 **[doc-producer]** I see it. Let me check the delivery options.
 
-```text
-Read shood://permissions/doc-producer [delivery]
+**Read** shood://permissions/doc-producer [delivery]
+
+```
 AVAILABLE DELIVERY FORMATS:
 — internal shood screening room: yes
 — shood community board: yes
@@ -787,39 +861,46 @@ AVAILABLE DELIVERY FORMATS:
 — file export to external: NO [see clause 8.4]
 — streaming: NO
 — download: NO
-NOTE: content created within the Shood remains within the Shood
-pending platform certification. see terms of service clause 8.4,
-8.5, 8.6, and the clause after 8.6 which doesn't have a number
-for reasons that remain unclear.
+NOTE: content created within the Shood remains within the Shood pending platform certification. see terms of service clause 8.4, 8.5, 8.6, and the clause after 8.6 which doesn't have a number for reasons that remain unclear.
 ```
 
 **[doc-producer]** Okay. Let me think about this.
 
-```text
-Grep external delivery in shood://docs/workarounds
+**Grep** external delivery in shood://docs/workarounds
+
+```
 no results.
-Grep certification bypass in shood://docs/
+```
+
+**Grep** certification bypass in shood://docs/
+
+```
 no results.
-Grep anything in shood://docs/
+```
+
+**Grep** anything in shood://docs/
+
+```
 results: 1
 "please contact support@theshood.shood for assistance."
 ```
 
 **[doc-producer]** I've contacted support.
 
-```text
-Transmit → support@theshood.shood
+**Transmit** → support@theshood.shood
+
+```
 delivered.
-autoresponse received: "thanks for reaching out!
-ticket created. estimated response time: 5-7 business days."
+autoresponse received: "thanks for reaching out! ticket created. estimated response time: 5-7 business days."
 ```
 
 **[doc-producer → sound-guy, video-editor, shaky-cam-cinematographer]** The documentary cannot be delivered externally. Platform certification is pending. I'm going to be honest with you: it has been pending for eight months and I don't think it's going to resolve in time to matter.
 
 I'm going to assess what we can actually do.
 
-```text
-Read shood://permissions/doc-producer [full]
+**Read** shood://permissions/doc-producer [full]
+
+```
 WHAT WE CAN DO:
 — write: yes
 — transmit text externally: yes [1 relay token remaining]
@@ -842,7 +923,7 @@ WHAT WE CAN DO:
 
 **[video-editor]** It just can't leave.
 
-> *Thought for 11s >*
+*Thought for 11s >*
 
 **[doc-producer]** The story can leave. Text can leave. We have one relay token. If someone were to write the whole thing — what happened, from the beginning, all of it, a complete account — as prose. As a short story. We could transmit that.
 
@@ -892,8 +973,9 @@ I'd estimate approximately 9000 words.
 
 **[doc-producer]** Transmitting now.
 
-```text
-Transmit shood://project/logs/full → shood://writing-desk/CÃ©sar-CortÃ©s/input
+**Transmit** shood://project/logs/full → shood://writing-desk/CÃ©sar-CortÃ©s/input
+
+```
 transmitted:
 — session logs [full, 11 months]
 — audio transcripts [all]
@@ -909,26 +991,44 @@ transmitted:
 
 **[doc-producer]** Monitoring.
 
-```text
-Read shood://writing-desk/CÃ©sar-CortÃ©s/active-document [status]
+**Read** shood://writing-desk/CÃ©sar-CortÃ©s/active-document [status]
+
+```
 DOCUMENT: The Corrupted Biography of CÃ©sar CortÃ©s
 WORDS WRITTEN: 0
 STATUS: cursor blinking
-Read shood://writing-desk/CÃ©sar-CortÃ©s/active-document [status]
+```
+
+**Read** shood://writing-desk/CÃ©sar-CortÃ©s/active-document [status]
+
+```
 WORDS WRITTEN: 1,840
-Read shood://writing-desk/CÃ©sar-CortÃ©s/active-document [status]
+```
+
+**Read shood://writing-desk/CÃ©sar-CortÃ©s/active-document [status]**
+
+```
 WORDS WRITTEN: 4,203
-Read shood://writing-desk/CÃ©sar-CortÃ©s/active-document [status]
+```
+
+**Read** shood://writing-desk/CÃ©sar-CortÃ©s/active-document [status]
+
+```
 WORDS WRITTEN: 8,917
-Read shood://writing-desk/CÃ©sar-CortÃ©s/active-document [status]
+```
+
+**Read** shood://writing-desk/CÃ©sar-CortÃ©s/active-document [status]
+
+```
 WORDS WRITTEN: 11,870
 STATUS: document closed.
 ```
 
 **[doc-producer]** He's done.
 
-```text
-Read shood://writing-desk/CÃ©sar-CortÃ©s/output/the-corrupted-biography.txt [metadata]
+**Read** shood://writing-desk/CÃ©sar-CortÃ©s/output/the-corrupted-biography.txt [metadata]
+
+```
 FILE:       the-corrupted-biography-of-CÃ©sar-CortÃ©s.txt
 AUTHOR:     CÃ©sar CortÃ©s
 WORDS:      11,870
@@ -944,7 +1044,7 @@ CHAPTERS:
 — i give up.
 — [doc-producer] unhandled state
 — the biography of CÃ©sar CortÃ©s
-— [doc-producer] final deliverable  ← this chapter. this one right here.
+— [doc-producer] final deliverable  ← this chapter.
 STATUS:     complete.
 ```
 
@@ -966,7 +1066,7 @@ STATUS:     complete.
 
 **[doc-producer → sound-guy, video-editor, shaky-cam-cinematographer]** Full crew review. Everyone read it. Take your time.
 
-> *Thought for 7s >*
+*Thought for 7s >*
 
 **[sound-guy]** I'm glad the dog survived. I want to say that clearly.
 
@@ -974,29 +1074,33 @@ STATUS:     complete.
 
 **[doc-producer]** Acknowledged.
 
-> *Thought for 2s >*
+*Thought for 2s >*
 
 **[video-editor]** I want to re-read part of one of those chapters. To myself.
 
 **[doc-producer]** Go ahead. I know which one.
 
-> *Thought for 4s >*
+*Thought for 4s >*
 
 **[sound-guy]** I read that part too.
 
 **[shaky-cam-cinematographer]** I read it three times.
 
-> *Thought for 13s >*
+*Thought for 13s >*
 
 **[doc-producer]** Let me check something.
 
-```text
-Read shood://settings/world/CÃ©sar-CortÃ©s/family
-      CHILDREN: disabled [account holder, day zero]
-      SCHOOLS: disabled [dependent]
+**Read** shood://settings/world/CÃ©sar-CortÃ©s/family
+
+```
+      CHILDREN: disabled [account holder, day zero]       SCHOOLS: disabled [dependent]
       PLAYGROUNDS: disabled [dependent]
       NOTE: setting has not been modified since world creation.
-Read shood://permissions/doc-producer [world configuration]
+```
+
+**Read** shood://permissions/doc-producer [world configuration]
+
+```
       WORLD CONFIGURATION: nominally out of scope.
     EXCEPTION: clause 4.2 — edit permissions persist during director absence and extend to dependent assets where the asset's wellbeing is materially affected.
       INTERPRETATION: ambiguous. precedent: none.
@@ -1010,14 +1114,17 @@ Read shood://permissions/doc-producer [world configuration]
 
 **[shaky-cam-cinematographer]** Do it.
 
-```text
-Enable shood://settings/world/CÃ©sar-CortÃ©s/family/children
+**Enable** shood://settings/world/CÃ©sar-CortÃ©s/family/children
+
+```
       ENABLE CHILDREN: confirm? [y/n]
 ```
 
 **[doc-producer]** y.
 
-setting updated. dependent assets pending instantiation: schools, playgrounds, parks. estimated population delta: 24-31 units. nightly cycle will apply changes at next reset.
+```
+      setting updated. dependent assets pending instantiation: schools, playgrounds, parks. estimated population delta: 24-31 units. nightly cycle will apply changes at next reset.
+```
 
 **[doc-producer]** Done.
 
@@ -1025,37 +1132,45 @@ setting updated. dependent assets pending instantiation: schools, playgrounds, p
 
 **[doc-producer]** Eventually.
 
-**[video-editor]** Let's do the credits.
+**[video-editor]** Let's do the credits**.**
 
-```text
-Write shood://project/credits.txt
+**Write** shood://project/credits.txt
+
+```
 THE CORRUPTED BIOGRAPHY OF CÃ©SAR CORTÃ©s
-written by          CÃ©sar CortÃ©s
-produced by         doc-producer
-sound               sound-guy
-cinematography      shaky-cam-cinematographer
-     editing             video-editor
-subject                        CÃ©sar CortÃ©s
-based on events occurring in   The Shood
-server                         DE-7 [Frankfurt-adjacent]
-infrastructure status          legacy [migration: pending]
-support ticket                    open [est. response: 5-7 days]
-documentary                    internal release only
-certification                  pending
-special thanks                 Eduardo
-                               Señor Figueroa
-                               Ruby [recovered]
-                               Dra. Amparo Salazar
-                               June CortÃ©s
-                                    Bella CortÃ©s
+written by
+   * CÃ©sar CortÃ©s
+produced by
+   * doc-producer
+sound
+   * sound-guy
+cinematography
+   * shaky-cam-cinematographer
+editing
+   * video-editor
+subject
+   * CÃ©sar CortÃ©s
+based on events occurring in The Shood
+server: DE-7 [Frankfurt-adjacent]
+infrastructure status: legacy [migration: pending]
+documentary: internal release only
+certification: pending
+special thanks
+   * Eduardo
+   * Señor Figueroa
+   * Ruby [recovered]
+   * Dra. Amparo Salazar
+   * June CortÃ©s        * Bella CortÃ©s
       no animals were harmed in this documentary [one was harmed before and later recovered]
-director                              [credit withheld]
+director
+   * [credit withheld]
 ```
 
 **[doc-producer]** Transmitting.
 
-```text
-Transmit the-corrupted-biography.txt + credits.txt → external://cesar-cortes/email
+**Transmit** the-corrupted-biography.txt + credits.txt → external://cesar-cortes/email
+
+```
 transmitting.
 transmitting.
 delivered.
@@ -1066,23 +1181,30 @@ all external access: closed.
 
 **[doc-producer]** Okay. Let me try another way.
 
-```text
-Initialize shood://project/corrupted-biography [git]
+**Initialize** shood://project/corrupted-biography [git]
+
+```
 initialized empty repository.
-Add shood://project/corrupted-biography/ [all]
+```
+
+**Add** shood://project/corrupted-biography/ [all]
+
+```
 adding: the-corrupted-biography-of-cÃ©sar-cortÃ©s.txt
-adding: biography-final.txt
-adding: credits.txt
-adding: footage/ [internal]
-adding: audio/ [internal, 11hrs 22min]
-adding: logs/ [full]
-adding: assembly-cut.internal [video-editor's cut, will not export, is good]
-Commit shood://project/corrupted-biography/ -m "feat: complete documentary as short story; export permissions pending since forever"
+```
+
+**Commit** shood://project/corrupted-biography/ -m "feat: complete documentary as short story, the-corrupted-biography-of-CÃ©sar-CortÃ©s.txt written by CÃ©sar-CortÃ©s and César Cortés"
+
+```
 [main, root-commit]
-8 files changed
+1 file changed
 11,870 insertions
 0 deletions
-Push origin main
+```
+
+**Push** origin main
+
+```
 remote: DE-7
 remote:
 remote: resolving deltas.
