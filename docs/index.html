@@ -173,14 +173,13 @@
   }
   .plain-link:hover{opacity:1;}
   body:not(.reader-active) .plain-link{display:none;}
-  .reader-dark .plain-link{
+  .console-on .plain-link{
     color:var(--term-dim);background:rgba(22,24,29,.6);border-color:var(--term-border);
   }
 
   /* ---- reader shell ---- */
   #reader{position:fixed;inset:0;overflow:hidden;background:var(--bg);
     transition:background .5s ease;}
-  .reader-dark #reader{background:#0d0e11;}
   #stage{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;}
   .scene{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
     opacity:1;}
@@ -200,7 +199,7 @@
     backdrop-filter:blur(4px);transition:all .2s;
   }
   .chrome-btn:hover{transform:scale(1.06);}
-  .reader-dark .chrome-btn{background:rgba(27,30,36,.7);color:var(--term-ink);border-color:var(--term-border);}
+  .console-on .chrome-btn{background:rgba(27,30,36,.7);color:var(--term-ink);border-color:var(--term-border);}
   body:not(.reader-active) .chrome-btn{display:none;}
   .chrome-btn svg{width:18px;height:18px;}
 
@@ -238,10 +237,16 @@
   .cover-meta a{color:var(--accent);text-decoration:none;}
   .cover-meta a:hover{text-decoration:underline;}
   .cover-start{
-    display:block;margin-top:16px;font-size:.82rem;letter-spacing:.18em;
-    text-transform:uppercase;color:var(--accent);font-weight:700;
-    animation:blink 1.15s step-start infinite;
+    display:inline-block;margin-top:22px;
+    font-family:ui-monospace,"SF Mono","Cascadia Code","Source Code Pro",Consolas,Menlo,monospace;
+    font-size:.8rem;letter-spacing:.01em;color:var(--term-teal);
+    background:var(--term-bg);border:1px solid var(--term-border);
+    padding:9px 15px;border-radius:7px;cursor:pointer;
+    box-shadow:0 6px 22px rgba(0,0,0,.2);
   }
+  .cover-start .pr{color:var(--term-amber);font-weight:700;margin-right:7px;}
+  .cover-start .bcur{display:inline-block;width:.55em;height:1.04em;vertical-align:-.18em;
+    background:var(--term-teal);margin-left:5px;animation:blink 1s step-start infinite;}
   @keyframes blink{50%{opacity:0;}}
   .cover-stack{
     display:flex;flex-direction:column;align-items:center;cursor:pointer;
@@ -279,6 +284,16 @@
     margin:0 0 22px;font-size:1.42rem;
   }
   .flow h2:first-child{break-before:auto;}
+  /* chapter openings (only real chapters carry an id) */
+  .flow h2[id]{
+    padding-top:9%;margin:0 0 30px;text-align:center;
+    font-size:1.62rem;line-height:1.22;font-weight:700;letter-spacing:-.01em;
+  }
+  .flow h2[id]::after{
+    content:"";display:block;width:42px;height:2px;border-radius:2px;
+    background:var(--accent);opacity:.8;margin:18px auto 0;
+  }
+  .flow h2[id]+.subtle,.flow h2[id]+.story-title{text-align:center;margin-top:0;}
   .flow p{margin:0 0 18px;}
   .flow .toc-page h2{break-before:auto;}
   .flow .toc-page .toc{margin:0;border:none;background:none;padding:0;}
@@ -293,17 +308,28 @@
     box-shadow:0 0 30px rgba(0,0,0,.18);
   }
 
-  /* ============ CONSOLE scene ============ */
-  .console-scene{padding:0;}
+  /* ============ CONSOLE scene (overlay panel) ============ */
+  .console-scene{padding:20px;background:rgba(8,9,12,.5);backdrop-filter:blur(3px);
+    -webkit-backdrop-filter:blur(3px);}
   .term{
-    position:absolute;inset:0;display:flex;flex-direction:column;
+    position:relative;width:min(92vw,720px);height:min(76vh,580px);
+    display:flex;flex-direction:column;overflow:hidden;
     background:var(--term-bg);color:var(--term-ink);
+    border:1px solid var(--term-border);border-radius:12px;
+    box-shadow:0 30px 90px rgba(0,0,0,.55);
     font-family:ui-monospace,"SF Mono","Cascadia Code","Source Code Pro",Consolas,Menlo,monospace;
+    animation:termIn .34s cubic-bezier(.2,.7,.2,1) both;
   }
+  @keyframes termIn{from{opacity:0;transform:translateY(12px) scale(.985);}to{opacity:1;transform:none;}}
   .term .term-bar{flex:0 0 auto;}
   .term-screen{
-    flex:1;overflow-y:auto;overflow-x:hidden;padding:26px clamp(16px,5vw,90px) 90px;
-    font-size:14.5px;line-height:1.62;scroll-behavior:auto;
+    flex:1;overflow-y:auto;overflow-x:hidden;padding:22px 30px 40px;
+    font-size:14px;line-height:1.6;scroll-behavior:auto;
+  }
+  @media (max-width:700px){
+    .console-scene{padding:0;background:var(--term-bg);backdrop-filter:none;-webkit-backdrop-filter:none;}
+    .term{width:100%;height:100%;border:none;border-radius:0;box-shadow:none;animation:none;}
+    .term-screen{padding:20px clamp(16px,5vw,28px) 80px;}
   }
   .term-screen .msg{margin:0 0 14px;}
   .term-screen .narr{margin:0 0 14px;color:var(--term-ink);}
@@ -1423,12 +1449,18 @@ everything up to date.</pre>
     clearTimeout(state._t);state.typing=false;
     var needFlash=(goDark&&prevType&&!wasDark)||(!goDark&&wasDark);
     function render(){
-      stage.innerHTML="";removeCaret();
-      body.classList.toggle("reader-dark",goDark);
-      if(scene.type==="cover")renderCover(scene);
-      else if(scene.type==="book")renderBook(scene,opts);
-      else if(scene.type==="console")renderConsole(scene);
-      else if(scene.type==="end")renderEnd(scene);
+      if(scene.type==="console"){
+        var oldc=stage.querySelector(".console-scene");if(oldc)oldc.remove();
+        removeCaret();
+        body.classList.add("console-on");
+        renderConsole(scene);
+      }else{
+        stage.innerHTML="";removeCaret();
+        body.classList.remove("console-on");
+        if(scene.type==="cover")renderCover(scene);
+        else if(scene.type==="book")renderBook(scene,opts);
+        else if(scene.type==="end")renderEnd(scene);
+      }
       updateChrome();
     }
     if(needFlash&&!reduce){
@@ -1450,7 +1482,7 @@ everything up to date.</pre>
     var bylines="";
     Array.prototype.forEach.call(coverSrc.querySelectorAll(".byline"),function(b){bylines+="<div>"+b.innerHTML+"</div>";});
     meta.innerHTML=bylines+"<div style='margin-top:14px'>"+coverSrc.querySelector(".meta").innerHTML+"</div>";
-    var start=el("div","cover-start");start.textContent="Click to start";
+    var start=el("div","cover-start");start.innerHTML='<span class="pr">&gt;</span>click to start<span class="bcur"></span>';
     stack.appendChild(book);stack.appendChild(meta);stack.appendChild(start);
     sc.appendChild(stack);stage.appendChild(sc);
     function open(e){
@@ -1561,7 +1593,7 @@ everything up to date.</pre>
     return out;
   }
   function renderConsole(scene){
-    var sc=el("div","scene console-scene");
+    var sc=el("div","scene enter console-scene");
     var term=el("div","term");
     var bar=scene.src.querySelector(".term-bar").cloneNode(true);
     bar.classList.add("boot");
@@ -1576,6 +1608,7 @@ everything up to date.</pre>
     state.consoleScreen=screen;state.consoleCont=cont;state.typing=true;state.skipReq=false;
     state.blocks=Array.prototype.slice.call(screen.children).filter(function(c){return c!==cont;});
     state.blocks.forEach(function(b){b.style.display="none";});
+    screen.scrollTop=0;
     if(reduce){finishConsole();}
     else state._t=setTimeout(function(){typeNextBlock(0);},480);
   }
@@ -1602,7 +1635,6 @@ everything up to date.</pre>
       j=Math.min(full.length,j+chunk);
       tns[i].nodeValue=full.slice(0,j);
       moveCaretAfter(tns[i]);
-      state.consoleScreen.scrollTop=state.consoleScreen.scrollHeight;
       if(j>=full.length){i++;j=0;}
       state._t=setTimeout(tick,speed);
     }
@@ -1623,7 +1655,6 @@ everything up to date.</pre>
   }
   function consoleDone(){
     state.typing=false;removeCaret();
-    state.consoleScreen.scrollTop=state.consoleScreen.scrollHeight;
     state.consoleCont.classList.add("show");
   }
 
@@ -1709,7 +1740,7 @@ everything up to date.</pre>
   function enablePlain(){
     try{localStorage.setItem("cb-plain","1");}catch(e){}
     closeMenu();
-    body.classList.remove("reader-active","reader-dark");
+    body.classList.remove("reader-active","console-on");
     reader.style.display="none";
     window.scrollTo(0,0);
     addBookSwitch();
