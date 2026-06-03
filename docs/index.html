@@ -1529,7 +1529,7 @@ everything up to date.</pre>
   }
   function layoutBook(){
     state.perView=1;
-    var leaf=state.flow.clientWidth;
+    var leaf=state.flow.getBoundingClientRect().width;
     state.flow.style.columnWidth=leaf+"px";
     state.leaf=leaf;
     var total=state.flow.scrollWidth;
@@ -1553,7 +1553,7 @@ everything up to date.</pre>
   function maxPos(){var spreads=Math.ceil(state.leaves/state.perView);return Math.max(0,(spreads-1)*state.perView);}
   function clampPos(p){p=Math.max(0,Math.min(p,maxPos()));return Math.floor(p/state.perView)*state.perView;}
   function applyBookTransform(animate){
-    var leaf=state.flow.clientWidth||state.leaf;state.leaf=leaf;
+    var leaf=state.flow.getBoundingClientRect().width||state.leaf;state.leaf=leaf;
     state.flow.style.columnWidth=leaf+"px";
     var x=-state.pos*leaf;
     if(!animate){state.flow.style.transition="none";}
