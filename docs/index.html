@@ -301,6 +301,7 @@
   .flow .toc-page .toc ol{font-size:.92rem;line-height:1.62;padding-left:2em;}
   .flow .toc-page .toc a{color:var(--ink);}
   .flow hr{display:none;}
+  .col-spacer{width:100%;break-inside:avoid;-webkit-column-break-inside:avoid;}
   /* turning leaf overlay */
   .turn-leaf{
     position:absolute;top:0;bottom:0;width:50%;z-index:6;pointer-events:none;
@@ -1389,7 +1390,7 @@ everything up to date.</pre>
 
   var scenes=[
     {key:"cover",type:"cover"},
-    {key:"book-A",type:"book",toc:tocSrc,chapters:["ch1","ch2","ch3","ch4","ch5","ch6","ch7","ch8","ch9"].map(ch)},
+    {key:"book-A",type:"book",chapters:["ch1","ch2","ch3","ch4","ch5","ch6","ch7","ch8","ch9"].map(ch)},
     {key:"console-10",type:"console",src:ch("ch10").src},
     {key:"book-B",type:"book",chapters:[ch("ch11")]},
     {key:"console-12",type:"console",src:ch("ch12").src},
@@ -1532,10 +1533,35 @@ everything up to date.</pre>
     var leaf=state.flow.getBoundingClientRect().width;
     state.flow.style.columnWidth=leaf+"px";
     state.leaf=leaf;
+    forceChapterBreaks();
     var total=state.flow.scrollWidth;
     state.leaves=Math.max(1,Math.round(total/leaf));
     state.pos=clampPos(state.pos);
     mapChapters();
+  }
+  /* Safari/WebKit ignores break-before:column in paginated multicol, so we
+     guarantee each chapter starts a fresh page by padding the tail of the
+     previous column. (Where the CSS break works, the heading is already at
+     the column top and gets skipped.) */
+  function forceChapterBreaks(){
+    var flow=state.flow;
+    flow.style.transition="none";
+    flow.style.transform="translateX(0px)";
+    Array.prototype.forEach.call(flow.querySelectorAll(".col-spacer"),function(s){
+      s.parentNode.removeChild(s);
+    });
+    var colH=flow.getBoundingClientRect().height;
+    if(!colH)return;
+    var heads=flow.querySelectorAll("h2[id]");
+    for(var i=0;i<heads.length;i++){
+      var h=heads[i];
+      if(!h.previousElementSibling)continue; // first thing in the book
+      var top=h.getBoundingClientRect().top-flow.getBoundingClientRect().top;
+      if(top<=8)continue; // already at the top of a column
+      var spacer=el("div","col-spacer");
+      spacer.style.height=Math.max(0,(colH-top)-4)+"px";
+      h.parentNode.insertBefore(spacer,h);
+    }
   }
   function mapChapters(){
     state.chapterLeaf={};
